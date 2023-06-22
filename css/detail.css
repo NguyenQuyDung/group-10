@@ -1,0 +1,297 @@
+@font-face {
+    font-family: monserat;
+    src: url('webpage/font/Montserrat-VariableFont_wght.ttf');
+}
+
+* {
+    font-family: monserat, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+html {
+    display: inline;
+    color: #333f48;
+    letter-spacing: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+
+body {
+    display: inline;
+    letter-spacing: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin:0 80px;
+}
+
+.content {
+   
+}
+
+.tag-name {}
+
+.detail-content {
+    display: flex;
+    width: 100%;
+}
+
+.part1 {
+    width: 60%;
+}
+.big-img{
+    width:100%;
+}
+.big-img img {
+    width: 100%;
+    
+}
+
+.part2 {
+width:8%;
+margin:0 10px;
+}
+
+.small-img img {
+    width: 100%;
+    transition: 0.7s;
+}
+.small-img1 img {
+    width: 100%;
+    border:1px solid black;
+    transition: 0.7s;
+}
+.small-img1 {
+    /* border:1px solid black; */
+}
+.small-img img:hover{
+    transform: scale(1.05);
+}
+.small-img1 img:hover{
+    transform: scale(1.05);
+}
+.part3 {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:30%;
+    margin: 0 0 0 50px;
+    
+}
+
+.prod-code {
+    margin:10px 0;
+    font-size: 10px;
+}
+
+.detail-price {
+    display: flex;
+}
+.detail-price span{
+    color:red;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.detail-price s{
+    color:rgb(173, 173, 173);
+    font-size: 13px;
+}
+.line {
+    width:100%;
+    height:1px;
+    background-color: rgb(213, 212, 212);
+    margin:30px 0;
+}
+
+.prod-color {
+    margin:0;
+    font-size: 13px;
+}
+.prod-color b{
+    font-size: 14px;
+}
+
+.prod-choose button {
+    margin: 10px 10px 10px 0;
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    border-radius: 50%;
+
+}
+.prod-choose .bt1{
+    border: 2px solid black;
+    width: 25px;
+    height: 25px;
+}
+.prod-size {
+    margin:0;
+    font-weight: bold;
+}
+
+.size-list {
+    display: flex;
+}
+
+.size-item {
+    width:30px;
+    height:30px;
+    border:1px solid rgb(201, 201, 201);
+    margin: 10px 15px 10px 0;
+    text-align: center;
+    line-height: 30PX;
+}
+.mount{
+    margin:0;
+}
+.quantity {
+    display: flex;
+}
+
+.number {}
+
+.suggest a{
+ color:rgb(129, 162, 218);
+ margin-bottom: 10px;
+}
+.suggest a:hover{
+    color:red;
+}
+.sale-note {
+    margin:5px 0;
+}
+.sale-note1 {
+    margin:0 0 30px 0;
+}
+
+.detail-buynow {
+width:100%;   
+}
+.detail-buynow button{
+    width:100%;
+    line-height: 40px;
+    margin-bottom: 10px;
+    border:1px solid #333f48;
+    background-color: #333f48;
+}
+.detail-buynow a{
+    display:block;
+    width:100%;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 40px;
+}
+.detail-buynow a:hover{
+    color:#333f48;
+    background-color: white;
+    transition: 0.5s;
+}
+.prod-detail {
+    margin:0;
+    font-size: 18px;
+    font-weight: bold;
+    margin:30px 0 10px 0;
+}
+
+.material {
+    margin:0;
+}
+
+.prod-made {
+    margin:10px 0;
+}
+
+.prod-save {
+    margin:0;
+}
+
+.suggest-more {
+    width: 100%;
+    margin: 50px 0 0 0;
+    background-color: #F9F9F9;
+    /* padding: 0 50px; */
+    box-sizing: border-box;
+}
+
+.suggest-more h2{
+    margin:20px 0;
+    padding:20px;
+}
+.prod-listitem {
+    margin: 0  40px 40px 0;
+}
+.prod-listitem ul {
+    display: flex;
+}
+
+.listitems {
+
+    list-style: none;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.detail-item-botom {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.detail-item-top img {
+    width:300px;
+    height:450px;
+    flex: 1;
+}
+
+.detail-thumb-img {
+    margin: 2px;
+}
+
+.detail-sp {}
+
+.detail-item-top {
+    display:flex;
+    position: relative;
+    overflow: hidden;
+}
+.detail-item-top:hover .detail-buy {
+    bottom: 0px;
+
+}
+
+.detail-buy {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    color: black;
+    background-color: white;
+    padding: 20px 0px;
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    transition: 0.35s ease-in-out;
+    opacity: 0.9;
+}
+
+.detail-item-botom a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.detail-item-botom span{
+    color: red;
+    font-weight: 600;
+}
+.detail-item-botom s{
+    font-size: 13px;
+}
